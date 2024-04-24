@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <!-- REPLACE THIS WITH YOUR PROJECT NAME. EXAMPLE - Category tabs -->
+    <title>Category tabs</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Khula:wght@300;400;600;700;800&display=swap');
+        </style>
+</head>
+
+<body>
+    <h1>Select your Choice</h1>
+    <div class="container">
+        <div class="tabs">
+            <button class="tab active" onclick="toggleTab('Men')">
+                <img src="./fluent-emoji-high-contrast_boy.png" alt="Men Image"  height="13px" width="13px"> Men
+            </button>
+            <button class="tab" onclick="toggleTab('Women')">
+                <img src="./fluent-emoji-high-contrast_girl.png" alt="Women Image" height="13px" width="13px"> Women
+            </button>
+            <button class="tab" onclick="toggleTab('Kids')">
+                <img src="./Vector.png" alt="Kids Image" height="13px" width="13px"> Kids
+            </button>
+        </div>
+        <div class="product-grid" id="product-grid">
+           
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
